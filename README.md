@@ -42,6 +42,8 @@ Accessing, adding, and deleting notes:
 
 * To delete a saved note, simply click on the trash icon button next to the note to remove it from the list.
 
+[Deployed Application](https://notes-express-production.up.railway.app/notes)
+
 ![Notes Express Screenshot 1](./public/assets/images/notes-express-screenshot-1.png)
 
 ![Notes Express Screenshot 2](./public/assets/images/notes-express-screenshot-2.png)
@@ -62,6 +64,6 @@ This application doesn't have any tests at this time.
 
 ## Questions 
 
-Please reach out via the the links below with any additional questions. 
+Please reach out via the the link below with any additional questions. 
 
 [GitHub](https://github.com/smdann)
