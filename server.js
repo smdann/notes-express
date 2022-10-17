@@ -67,7 +67,7 @@ app.delete("/api/notes/:id", (req, res) => {
   // Id of note item clicked for deletion is set to targetId
   const targetId = req.params.id;
 
-  // Filtered data excludes the datum with the target id
+  // Filters out the datum with the target id
   const filteredData = parsedData.filter(datum => datum.id !== targetId);
   console.log(filteredData)
   
@@ -80,8 +80,7 @@ app.delete("/api/notes/:id", (req, res) => {
   const rawDataNew = fs.readFileSync(path.join(__dirname, "/db/db.json"));
   const parsedDataNew = JSON.parse(rawDataNew)
   res.json(parsedDataNew)
-
-})
+});
 
 // Express listener
 app.listen(PORT, () => 

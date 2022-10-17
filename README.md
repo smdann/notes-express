@@ -20,7 +20,7 @@ Notes Express is a note taking application that allows the user to write, save, 
 
 ## Installation 
 
-This application uses Express.js, Node.js, and fs. Please use `npm i` to install the required packages for this application.
+This application uses Express.js, Node.js, and the fs module. Please use `npm i` to install the required packages for this application.
 
 ## Usage 
 
@@ -42,7 +42,7 @@ Accessing, adding, and deleting notes:
 
 * To delete a saved note, simply click on the trash icon button next to the note to remove it from the list.
 
-[Deployed Application](https://notes-express-production.up.railway.app/notes)
+[Notes Express - Deployed Application](https://notes-express-production.up.railway.app/notes)
 
 ![Notes Express Screenshot 1](./public/assets/images/notes-express-screenshot-1.png)
 
