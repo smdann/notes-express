@@ -42,7 +42,7 @@ Accessing, adding, and deleting notes:
 
 * To delete a saved note, simply click on the trash icon button next to the note to remove it from the list.
 
-[Notes Express - Deployed Application](https://notes-express-production.up.railway.app/notes)
+[Notes Express - Deployed Application](https://notes-express-production.up.railway.app/)
 
 ![Notes Express Screenshot 1](./public/assets/images/notes-express-screenshot-1.png)
 
