@@ -24,7 +24,10 @@ app.get("/notes", (req, res) =>
 
 // Get notes - API route
 app.get("/api/notes", (req, res) => 
-  res.json(noteDatabase)
+  // res.json(noteDatabase)
+  {const rawDataNew = fs.readFileSync(path.join(__dirname, "/db/db.json"));
+    const parsedDataNew = JSON.parse(rawDataNew)
+    res.json(parsedDataNew)}
 );
 
 // Save note - API route
